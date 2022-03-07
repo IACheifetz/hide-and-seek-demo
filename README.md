@@ -18,7 +18,7 @@
 - Use Math.random to get a random item from an array
 - Use a truthy/falsey expression in an if/else statement to perform an action conditionally
 - Describe the difference between (and give examples of) true  and truthy, false  and falsey values.
-
+change
 ## Suggested Order
 1) Call the handleGuess functions first inside event handlers
 2) Pass the correct arguments to the handleGuess functions
