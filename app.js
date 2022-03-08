@@ -57,7 +57,7 @@ function getRandomHidingSpot(arr) {
 
 
 function handleGuess(correctSpot, userGuess) {
-    console.log(userGuess, correctSpot);
+    //console.log(userGuess, correctSpot);
     // first, right after clicking, we need to remove the emoji face from the previous hiding place that way we don't end up with more than one emoji face
     // we can do that by removing the .face class from all containers
     resetStyles();
@@ -77,11 +77,11 @@ function handleGuess(correctSpot, userGuess) {
     lossesEl.textContent = totalGuesses - correctGuesses;
 }
 
-function setStyles() {
-    shedContainer.classList.add('face');
-    treeContainer.classList.add('face');
-    boulderContainer.classList.add('face');
-}
+// function setStyles() {
+//     shedContainer.classList.add('face');
+//     treeContainer.classList.add('face');
+//     boulderContainer.classList.add('face');
+// }
 
 function resetStyles() {
     shedContainer.classList.remove('face');
